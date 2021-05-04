@@ -1,0 +1,15 @@
+h1{
+    color: #00b39b;
+}
+.logo{
+    width: 44px;
+}
+.description{
+    display: flex;
+    padding: 4% 16%;
+    text-align: left;
+}
+
+.description p{
+    padding: 8px;
+}

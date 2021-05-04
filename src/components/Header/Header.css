@@ -1,0 +1,17 @@
+img{
+    width: 200px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+ul li {
+    padding: 15px;
+}
