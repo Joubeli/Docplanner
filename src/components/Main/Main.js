@@ -2,6 +2,12 @@ import React from "react";
 // import { Card, Button } from "react-bootstrap";
 import Introduction from "../Introduction/Introduction"
 import List from "../List/List"
+import Company from "../company/Company"
+import Information from '../information/Information'
+import CardI from '../Card-intro/Card-intro'
+import City from'../cities/City'
+import Footer from '../footer/Footer'
+
 
 const Main = () => {
   let str = "Youssef";
@@ -25,6 +31,11 @@ const Main = () => {
 
       <Introduction />
       <List/>
+    <Company />
+    <Information/>
+    <CardI/>
+    <City/>
+    <Footer/>
     </div>
   );
 };

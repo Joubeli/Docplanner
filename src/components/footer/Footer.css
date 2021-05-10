@@ -1,0 +1,11 @@
+.foot {
+    border-top: 1px solid #eef2f2;
+    text-align: center;
+    padding: 1em 0;
+    margin-left: 15px;
+}
+
+.foot p{
+    font-size: 12px;
+    color: #ababab;
+}

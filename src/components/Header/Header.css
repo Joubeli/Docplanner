@@ -1,15 +1,18 @@
-img{
+.himg{
     width: 200px;
+
 }
 header{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+  
+    justify-content: space-evenly;
+    margin-left: 300px;
 }
 
 ul{
     list-style-type: none;
     display: flex;
+    
 }
 
 ul li {

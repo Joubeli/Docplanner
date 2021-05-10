@@ -22,6 +22,8 @@ const List = () => {
       image: "https://www.docplanner.com/icons/icon-clinics.svg",
       title: "For clinics",
       description: "Deliver an exceptional patient experience in your clinic",
+      country: ["Tunis", "France", "Italy"],
+      specialist: ["Tunis", "France", "Italy"],
       color: "#1b2734",
     },
   ];
@@ -29,8 +31,9 @@ const List = () => {
   return (
     <div className="list">
       {clients.map((el) => (
+
         <div className="card" style={{ backgroundColor: el.color }}>
-          <img src={el.image} />
+          <img className="image" src={el.image} />
           <h3>{el.title}</h3>
           <p>{el.description}</p>
 
@@ -41,8 +44,21 @@ const List = () => {
               ))}
             </select>
           )}
+
+          {  el.specialist && (
+            <select>
+              {el.specialist.map((count2) => (
+
+                <option>{count2}</option>
+              ))}
+
+            </select>
+          )}
         </div>
+
       ))}
+
+
     </div>
   );
 };

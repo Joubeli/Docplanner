@@ -3,11 +3,10 @@ import "./Header.css"
 
 function Header() {
   return (
-    <header>
+    <>
       {/* <h1>Hello</h1>
       <p>I'm Slim Amdouni</p> */}
-
-      <img
+<header> <img className='himg'
         src="https://www.docplanner.com/img/logo-default-group-en.svg?v=1"
         alt="logo-docplanner"
       />
@@ -16,7 +15,8 @@ function Header() {
         <li>Career</li>
         <li>Departement</li>
       </ul>
-    </header>
+      </header> 
+  </>
   );
 }
 
