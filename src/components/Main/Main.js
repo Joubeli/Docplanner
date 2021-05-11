@@ -9,7 +9,7 @@ import City from'../cities/City'
 import Footer from '../footer/Footer'
 
 
-const Main = () => {
+const Main = ({card,clients}) => {
   let str = "Youssef";
   return (
     <div>
@@ -30,11 +30,11 @@ const Main = () => {
       </Card> */}
 
       <Introduction />
-      <List/>
+      <List clients={clients}/>
     <Company />
     <Information/>
     <CardI/>
-    <City/>
+    <City card={card}/>
     <Footer/>
     </div>
   );

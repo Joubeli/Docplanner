@@ -1,34 +1,9 @@
 import react from 'react'
 import './city.css'
 
-function City(){
+function City({card}){
 
-    let card=[{
-        image:'https://www.docplanner.com/images/warsaw.png',
-        title:'Warsaw',
-       
-    },{
-        image:'https://www.docplanner.com/images/barcelona.png',
-        title:'Barcelona',
-       
-    },{
-        image:'https://www.docplanner.com/images/istanbul.png',
-        title:'Istanbul',
-       
-    },{
-        image:'https://www.docplanner.com/images/rome.png',
-        title:'Rome',
-
-    },{
-        image:'https://www.docplanner.com/images/bologna.png',
-        title:'Bologna',
-    },{
-        image:'https://www.docplanner.com/images/curitiba.png',
-        title:'Curitiba',
-    },{
-        image:'https://www.docplanner.com/images/mexico-city.png',
-        title:'Mexico',
-    }]
+    
      
     return(
         <>
